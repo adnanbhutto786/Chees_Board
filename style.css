@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.chees-board{
+  border-spacing: 0;
+  border-collapse: collapse;
+  /* padding-right: 200px; */
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+
+}
+
+.chees-board th{
+  padding: .5em;
+  background-color:#3E1404;
+  color: #eee;
+  /* transform: rotate(180deg); */
+}
+.chees-board td{
+  border: 1px solid white;
+  width: 2em;
+  height: 2em;
+
+}
+.Light{
+  background-color: #eee;
+}
+.Brown{
+  background-color: #3E1404;
+}
+#postion_change{
+  transform: rotate(180deg);
+
+}
+h1,h3{
+  text-align: center;
+  color: #3E1404;
+  
+  
+
+}
